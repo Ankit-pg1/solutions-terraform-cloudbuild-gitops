@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "ankit-cloud-sbx-48d4-tfstate"
     prefix = "env/prod"
   }
 }
